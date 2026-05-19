@@ -8,6 +8,9 @@
     "native:build": "moon run cmd/native --target native --build-only",
     "browser": "pnpm run browser:build && node scripts/serve-browser.mjs",
     "browser:build": "moon run cmd/browser --target js --build-only",
-    "browser:serve": "node scripts/serve-browser.mjs"
+    "browser:serve": "node scripts/serve-browser.mjs",
+    "typescript": "pnpm --dir samples/typescript dev",
+    "typescript:build": "pnpm --dir samples/typescript build",
+    "typescript:preview": "pnpm --dir samples/typescript preview"
   }
 }

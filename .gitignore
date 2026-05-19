@@ -2,3 +2,5 @@
 /.mooncakes/
 /node_modules/
 /.pnpm-store/
+/dist/
+node_modules/
