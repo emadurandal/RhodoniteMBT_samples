@@ -1,0 +1,13 @@
+import {
+  "emadurandal/RhodoniteMBT_ex/src/cube" @cube,
+  "emadurandal/rhodonite/app/browser" @rhodonite_browser,
+  "emadurandal/rhodonite_webgpu/webgpu_objects" @objects,
+  "moonbitlang/async",
+}
+
+supported_targets = "js"
+
+options(
+  "is-main": true,
+  overrides: [ "emadurandal/rhodonite_webgpu/webgpu_objects/js" ],
+)

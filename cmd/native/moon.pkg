@@ -1,0 +1,11 @@
+import {
+  "emadurandal/RhodoniteMBT_ex/src/cube" @cube,
+  "emadurandal/rhodonite_app_sdl3/sdl3" @sdl3,
+  "moonbitlang/async",
+}
+
+supported_targets = "native"
+
+options(
+  "is-main": true,
+)
