@@ -13,7 +13,7 @@ This repository contains a minimal rotating cube sample built on:
 pnpm native
 ```
 
-The native sample uses SDL3. On Homebrew macOS environments, the script adds the SDL3 include path before invoking `moon run`.
+The native sample uses SDL3. Homebrew macOS include and library paths are configured in `cmd/native/moon.pkg`.
 
 For build-only checks:
 
