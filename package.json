@@ -1,0 +1,13 @@
+{
+  "name": "rhodonite-mbt-ex",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.1.2",
+  "scripts": {
+    "native": "./scripts/run-native.sh",
+    "native:build": "./scripts/run-native.sh --build-only",
+    "browser": "pnpm run browser:build && node scripts/serve-browser.mjs",
+    "browser:build": "moon run cmd/browser --target js --build-only",
+    "browser:serve": "node scripts/serve-browser.mjs"
+  }
+}

@@ -10,7 +10,7 @@ This repository contains a minimal rotating cube sample built on:
 ## Native SDL3/WebGPU build
 
 ```sh
-./scripts/run-native.sh
+pnpm native
 ```
 
 The native sample uses SDL3. On Homebrew macOS environments, the script adds the SDL3 include path before invoking `moon run`.
@@ -18,20 +18,19 @@ The native sample uses SDL3. On Homebrew macOS environments, the script adds the
 For build-only checks:
 
 ```sh
-CPATH=/opt/homebrew/include:/usr/local/include moon run cmd/native --target native --build-only
+pnpm native:build
 ```
 
 ## Browser JS/WebGPU build
 
 ```sh
-moon run cmd/browser --target js --build-only
-python3 -m http.server 8080
+pnpm browser
 ```
 
 Then open:
 
 ```text
-http://localhost:8080/public/
+http://localhost:8081/public/
 ```
 
 The browser sample requires WebGPU support.
