@@ -10,16 +10,16 @@ This repository contains a minimal rotating cube sample built on:
 ## Native SDL3/WebGPU build
 
 ```sh
-moon run cmd/native --target native
+./scripts/run-native.sh
 ```
 
-The SDL3 package links against SDL3. On Homebrew macOS environments, use:
+The native sample uses SDL3. On Homebrew macOS environments, the script adds the SDL3 include path before invoking `moon run`.
+
+For build-only checks:
 
 ```sh
-CPATH=/opt/homebrew/include LIBRARY_PATH=/opt/homebrew/lib moon run cmd/native --target native
+CPATH=/opt/homebrew/include:/usr/local/include moon run cmd/native --target native --build-only
 ```
-
-If the build still reports unresolved `SDL_*` symbols while building `rhodonite_app_sdl3`, the dependency package's native-stub link step is not receiving `-lSDL3`; that needs to be fixed in `emadurandal/rhodonite_app_sdl3`.
 
 ## Browser JS/WebGPU build
 
