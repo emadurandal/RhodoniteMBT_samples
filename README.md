@@ -1,6 +1,6 @@
 # RhodoniteMBT_ex
 
-MoonBit sample project for RhodoniteMBT.
+MoonBit sample project for [RhodoniteMBT](https://github.com/emadurandal/RhodoniteMBT).
 
 This repository contains a minimal rotating cube sample built on:
 
