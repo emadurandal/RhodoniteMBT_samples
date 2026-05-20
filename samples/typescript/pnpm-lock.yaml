@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       rhodonite-mbt:
-        specifier: latest
-        version: 0.0.1
+        specifier: 0.1.8
+        version: 0.1.8
     devDependencies:
       '@webgpu/types':
         specifier: ^0.1.70
@@ -254,8 +254,8 @@ packages:
     resolution: {integrity: sha512-SoSL4+OSEtR99LHFZQiJLkT59C5B1amGO1NzTwj7TT1qCUgUO6hxOvzkOYxD+vMrXBM3XJIKzokoERdqQq/Zmg==}
     engines: {node: ^10 || ^12 || >=14}
 
-  rhodonite-mbt@0.0.1:
-    resolution: {integrity: sha512-oTf9kkFfOQS+v2e8mSsTLZfBwVI62Ju608awJH9XW0eFomMjdAGzN0osiK6HvDave3ruiTL9OCRMlSp4F1NfYw==}
+  rhodonite-mbt@0.1.8:
+    resolution: {integrity: sha512-sIro7ai/0Rbt9+CHeXZ7yp7wsdbj2CMhfGi3AEw9RSwq7dgUoSow0m3sG0VijYiVtp9mMJTkdF22grFbkGg+jg==}
 
   rolldown@1.0.1:
     resolution: {integrity: sha512-X0KQHljNnEkWNqqiz9zJrGunh1B0HgOxLXvnFpCOcadzcy5qohZ3tqMEUg00vncoRovXuK3ZqCT9KnnKzoInFQ==}
@@ -476,7 +476,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  rhodonite-mbt@0.0.1:
+  rhodonite-mbt@0.1.8:
     dependencies:
       '@webgpu/types': 0.1.70
 
